@@ -1,0 +1,1 @@
+ C:\\Users\\shada\\OneDrive\\Documents\\FlutterProjects\\parentseye_parent\\.dart_tool\\flutter_build\\00e7d4812ae0cb1da281ebdcaa006cc2\\native_assets.yaml: 

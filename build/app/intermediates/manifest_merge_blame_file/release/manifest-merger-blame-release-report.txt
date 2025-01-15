@@ -1,0 +1,763 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.parentseye.parent_app"
+4    android:versionCode="29"
+5    android:versionName="1.0.28" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature
+11-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:4:5-6:36
+12        android:name="android.hardware.telephony"
+12-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:5:9-50
+13        android:required="false" />
+13-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:6:9-33
+14
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:8:5-79
+15-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:8:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:9:5-81
+16-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:9:22-78
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:10:5-79
+17-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:10:22-76
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:11:5-67
+18-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:11:22-64
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:12:5-80
+19-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:12:22-78
+20    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+20-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:13:5-71
+20-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:13:22-69
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:14:5-70
+21-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:14:22-68
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->[:firebase_analytics] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_analytics\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-68
+22-->[:firebase_analytics] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_analytics\intermediates\merged_manifest\release\AndroidManifest.xml:11:22-65
+23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+23-->[:flutter_background_service_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-77
+23-->[:flutter_background_service_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-74
+24    <uses-permission android:name="android.permission.VIBRATE" />
+24-->[:flutter_local_notifications] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-66
+24-->[:flutter_local_notifications] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-63
+25    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- suppress DeprecatedClassUsageInspection -->
+25-->[:flutter_local_notifications] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-77
+25-->[:flutter_local_notifications] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\flutter_local_notifications\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-74
+26    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+26-->[androidx.biometric:biometric:1.1.0] C:\Users\shada\.gradle\caches\transforms-3\71a493ad1dd0135b488ffa8c85d827c2\transformed\biometric-1.1.0\AndroidManifest.xml:27:5-74
+26-->[androidx.biometric:biometric:1.1.0] C:\Users\shada\.gradle\caches\transforms-3\71a493ad1dd0135b488ffa8c85d827c2\transformed\biometric-1.1.0\AndroidManifest.xml:27:22-71
+27
+28    <uses-feature
+28-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\shada\.gradle\caches\transforms-3\f8b7e846aa07990c1868a662502a6c26\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+29        android:glEsVersion="0x00020000"
+29-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\shada\.gradle\caches\transforms-3\f8b7e846aa07990c1868a662502a6c26\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+30        android:required="true" />
+30-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\shada\.gradle\caches\transforms-3\f8b7e846aa07990c1868a662502a6c26\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+31
+32    <queries>
+32-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\shada\.gradle\caches\transforms-3\f8b7e846aa07990c1868a662502a6c26\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
+33
+34        <!-- Needs to be explicitly declared on Android R+ -->
+35        <package android:name="com.google.android.apps.maps" />
+35-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\shada\.gradle\caches\transforms-3\f8b7e846aa07990c1868a662502a6c26\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+35-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\shada\.gradle\caches\transforms-3\f8b7e846aa07990c1868a662502a6c26\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+36    </queries> <!-- Required by older versions of Google Play services to create IID tokens -->
+37    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+37-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\shada\.gradle\caches\transforms-3\901aa6e3d78ca4d1fd5b488ab4e81172\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:29:5-82
+37-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\shada\.gradle\caches\transforms-3\901aa6e3d78ca4d1fd5b488ab4e81172\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:29:22-79
+38    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+38-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\shada\.gradle\caches\transforms-3\36ba45fc42319576530983f43cc5b016\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:26:5-110
+38-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\shada\.gradle\caches\transforms-3\36ba45fc42319576530983f43cc5b016\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:26:22-107
+39
+40    <permission
+40-->[androidx.core:core:1.13.1] C:\Users\shada\.gradle\caches\transforms-3\cc5172386101d9b8b67ae1fba8e34635\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+41        android:name="com.parentseye.parent_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+41-->[androidx.core:core:1.13.1] C:\Users\shada\.gradle\caches\transforms-3\cc5172386101d9b8b67ae1fba8e34635\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+42        android:protectionLevel="signature" />
+42-->[androidx.core:core:1.13.1] C:\Users\shada\.gradle\caches\transforms-3\cc5172386101d9b8b67ae1fba8e34635\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+43
+44    <uses-permission android:name="com.parentseye.parent_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+44-->[androidx.core:core:1.13.1] C:\Users\shada\.gradle\caches\transforms-3\cc5172386101d9b8b67ae1fba8e34635\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+44-->[androidx.core:core:1.13.1] C:\Users\shada\.gradle\caches\transforms-3\cc5172386101d9b8b67ae1fba8e34635\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+45
+46    <application
+47        android:name="android.app.Application"
+47-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:21:9-42
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.13.1] C:\Users\shada\.gradle\caches\transforms-3\cc5172386101d9b8b67ae1fba8e34635\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+49        android:extractNativeLibs="false"
+50        android:icon="@mipmap/launcher_icon"
+50-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:22:9-45
+51        android:label="ParentsEye Parent" >
+51-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:20:9-42
+52        <activity
+52-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:24:9-39:20
+53            android:name="com.parentseye.parent_app.MainActivity"
+53-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:25:13-41
+54            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+54-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:29:13-163
+55            android:exported="true"
+55-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:26:13-36
+56            android:hardwareAccelerated="true"
+56-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:30:13-47
+57            android:launchMode="singleTop"
+57-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:27:13-43
+58            android:theme="@style/LaunchTheme"
+58-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:28:13-47
+59            android:windowSoftInputMode="adjustResize" >
+59-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:31:13-55
+60            <meta-data
+60-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:32:13-34:55
+61                android:name="io.flutter.embedding.android.NormalTheme"
+61-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:33:15-70
+62                android:resource="@style/NormalTheme" />
+62-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:34:15-52
+63
+64            <intent-filter>
+64-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:35:13-38:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:36:17-68
+65-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:36:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:37:17-76
+67-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:37:27-74
+68            </intent-filter>
+69        </activity>
+70
+71        <service
+71-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:41:9-44:39
+72            android:name="dev.fluttercommunity.plus.workmanager.WorkmanagerService"
+72-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:42:13-84
+73            android:exported="false"
+73-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:44:13-37
+74            android:permission="android.permission.BIND_JOB_SERVICE" />
+74-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:43:13-69
+75
+76        <meta-data
+76-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:46:9-48:33
+77            android:name="flutterEmbedding"
+77-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:47:13-44
+78            android:value="2" />
+78-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:48:13-30
+79        <meta-data
+79-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:50:9-52:71
+80            android:name="com.google.android.geo.API_KEY"
+80-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:51:13-58
+81            android:value="AIzaSyAvHHoPKPwRFui0undeEUrz00-8w6qFtik" />
+81-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:52:13-68
+82
+83        <receiver
+83-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:54:9-62:20
+84            android:name="dev.fluttercommunity.plus.workmanager.WorkmanagerBroadcastReceiver"
+84-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:55:13-94
+85            android:enabled="true"
+85-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:56:13-35
+86            android:exported="true" >
+86-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:57:13-36
+87            <intent-filter>
+87-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:58:13-61:29
+88                <action android:name="android.intent.action.BOOT_COMPLETED" />
+88-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:59:17-78
+88-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:59:25-76
+89                <action android:name="android.intent.action.REBOOT" />
+89-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:60:17-70
+89-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:60:25-68
+90            </intent-filter>
+91        </receiver>
+92
+93        <service
+93-->[:firebase_analytics] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_analytics\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-18:19
+94            android:name="com.google.firebase.components.ComponentDiscoveryService"
+94-->[:firebase_analytics] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_analytics\intermediates\merged_manifest\release\AndroidManifest.xml:14:18-89
+95            android:directBootAware="true"
+95-->[com.google.firebase:firebase-common:20.1.2] C:\Users\shada\.gradle\caches\transforms-3\45c77d5d058d8bc7c2ce0bce64b3b7e9\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:35:13-43
+96            android:exported="false" >
+96-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\shada\.gradle\caches\transforms-3\901aa6e3d78ca4d1fd5b488ab4e81172\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:55:13-37
+97            <meta-data
+97-->[:firebase_analytics] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_analytics\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:85
+98                android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar"
+98-->[:firebase_analytics] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_analytics\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-128
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[:firebase_analytics] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_analytics\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-82
+100            <meta-data
+100-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:36:13-38:85
+101                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+101-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:37:17-128
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:38:17-82
+103            <meta-data
+103-->[:firebase_core] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+104                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+104-->[:firebase_core] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[:firebase_core] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\shada\.gradle\caches\transforms-3\901aa6e3d78ca4d1fd5b488ab4e81172\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:56:13-58:85
+107                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+107-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\shada\.gradle\caches\transforms-3\901aa6e3d78ca4d1fd5b488ab4e81172\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:57:17-119
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\shada\.gradle\caches\transforms-3\901aa6e3d78ca4d1fd5b488ab4e81172\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:58:17-82
+109            <meta-data
+109-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\shada\.gradle\caches\transforms-3\faa5bfa8a5a382a71304061593553a4a\transformed\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:31:13-33:85
+110                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+110-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\shada\.gradle\caches\transforms-3\faa5bfa8a5a382a71304061593553a4a\transformed\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:32:17-139
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.android.gms:play-services-measurement-api:21.1.1] C:\Users\shada\.gradle\caches\transforms-3\faa5bfa8a5a382a71304061593553a4a\transformed\jetified-play-services-measurement-api-21.1.1\AndroidManifest.xml:33:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-datatransport:18.1.6] C:\Users\shada\.gradle\caches\transforms-3\3c61074ee6d06173df1450850705ae01\transformed\jetified-firebase-datatransport-18.1.6\AndroidManifest.xml:28:13-30:85
+113                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+113-->[com.google.firebase:firebase-datatransport:18.1.6] C:\Users\shada\.gradle\caches\transforms-3\3c61074ee6d06173df1450850705ae01\transformed\jetified-firebase-datatransport-18.1.6\AndroidManifest.xml:29:17-115
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-datatransport:18.1.6] C:\Users\shada\.gradle\caches\transforms-3\3c61074ee6d06173df1450850705ae01\transformed\jetified-firebase-datatransport-18.1.6\AndroidManifest.xml:30:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-installations:17.0.3] C:\Users\shada\.gradle\caches\transforms-3\a9b9b4ea2f4c99b7fb5d9e7412af2bc5\transformed\jetified-firebase-installations-17.0.3\AndroidManifest.xml:18:13-20:85
+116                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+116-->[com.google.firebase:firebase-installations:17.0.3] C:\Users\shada\.gradle\caches\transforms-3\a9b9b4ea2f4c99b7fb5d9e7412af2bc5\transformed\jetified-firebase-installations-17.0.3\AndroidManifest.xml:19:17-127
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-installations:17.0.3] C:\Users\shada\.gradle\caches\transforms-3\a9b9b4ea2f4c99b7fb5d9e7412af2bc5\transformed\jetified-firebase-installations-17.0.3\AndroidManifest.xml:20:17-82
+118        </service>
+119        <service
+119-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-17:72
+120            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+120-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-107
+121            android:exported="false"
+121-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-37
+122            android:permission="android.permission.BIND_JOB_SERVICE" />
+122-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-69
+123        <service
+123-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-24:19
+124            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+124-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:19:13-97
+125            android:exported="false" >
+125-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:20:13-37
+126            <intent-filter>
+126-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-23:29
+127                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+127-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:22:17-78
+127-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:22:25-75
+128            </intent-filter>
+129        </service>
+130
+131        <receiver
+131-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:26:9-33:20
+132            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+132-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-98
+133            android:exported="true"
+133-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-36
+134            android:permission="com.google.android.c2dm.permission.SEND" >
+134-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-73
+135            <intent-filter>
+135-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-32:29
+136                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+136-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:31:17-81
+136-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:31:25-78
+137            </intent-filter>
+138        </receiver>
+139
+140        <provider
+140-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:41:9-45:38
+141            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+141-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:42:13-102
+142            android:authorities="com.parentseye.parent_app.flutterfirebasemessaginginitprovider"
+142-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-88
+143            android:exported="false"
+143-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:44:13-37
+144            android:initOrder="99" />
+144-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:45:13-35
+145
+146        <service
+146-->[:flutter_background_service_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:9-18:44
+147            android:name="id.flutter.flutter_background_service.BackgroundService"
+147-->[:flutter_background_service_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-83
+148            android:enabled="true"
+148-->[:flutter_background_service_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-35
+149            android:exported="true"
+149-->[:flutter_background_service_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-36
+150            android:stopWithTask="false" />
+150-->[:flutter_background_service_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:18:13-41
+151
+152        <receiver
+152-->[:flutter_background_service_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:20:9-23:39
+153            android:name="id.flutter.flutter_background_service.WatchdogReceiver"
+153-->[:flutter_background_service_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-82
+154            android:enabled="true"
+154-->[:flutter_background_service_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:22:13-35
+155            android:exported="true" />
+155-->[:flutter_background_service_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-36
+156        <receiver
+156-->[:flutter_background_service_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:24:9-33:20
+157            android:name="id.flutter.flutter_background_service.BootReceiver"
+157-->[:flutter_background_service_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:25:13-78
+158            android:enabled="true"
+158-->[:flutter_background_service_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:26:13-35
+159            android:exported="true" >
+159-->[:flutter_background_service_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-36
+160            <intent-filter>
+160-->[:flutter_background_service_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-32:29
+161                <action android:name="android.intent.action.BOOT_COMPLETED" />
+161-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:59:17-78
+161-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:59:25-76
+162                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+162-->[:flutter_background_service_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:30:17-82
+162-->[:flutter_background_service_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:30:25-79
+163                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+163-->[:flutter_background_service_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:31:17-84
+163-->[:flutter_background_service_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\flutter_background_service_android\intermediates\merged_manifest\release\AndroidManifest.xml:31:25-81
+164            </intent-filter>
+165        </receiver>
+166
+167        <service
+167-->[:geolocator_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:56
+168            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+168-->[:geolocator_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-77
+169            android:enabled="true"
+169-->[:geolocator_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-35
+170            android:exported="false"
+170-->[:geolocator_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+171            android:foregroundServiceType="location" />
+171-->[:geolocator_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\geolocator_android\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-53
+172
+173        <provider
+173-->[:share] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\share\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-18:20
+174            android:name="io.flutter.plugins.share.ShareFileProvider"
+174-->[:share] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\share\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-70
+175            android:authorities="com.parentseye.parent_app.flutter.share_provider"
+175-->[:share] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\share\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-74
+176            android:exported="false"
+176-->[:share] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\share\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+177            android:grantUriPermissions="true" >
+177-->[:share] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\share\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-47
+178            <meta-data
+178-->[:share] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\share\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:68
+179                android:name="android.support.FILE_PROVIDER_PATHS"
+179-->[:share] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\share\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-67
+180                android:resource="@xml/flutter_share_file_paths" />
+180-->[:share] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\share\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-65
+181        </provider>
+182
+183        <activity
+183-->[:url_launcher_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-13:74
+184            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+184-->[:url_launcher_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-74
+185            android:exported="false"
+185-->[:url_launcher_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-37
+186            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+186-->[:url_launcher_android] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\url_launcher_android\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-71
+187
+188        <provider
+188-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:29:9-37:20
+189            android:name="androidx.startup.InitializationProvider"
+189-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:30:13-67
+190            android:authorities="com.parentseye.parent_app.androidx-startup"
+190-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:31:13-68
+191            android:exported="false" >
+191-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:32:13-37
+192            <meta-data
+192-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:34:13-36:52
+193                android:name="androidx.work.WorkManagerInitializer"
+193-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:35:17-68
+194                android:value="androidx.startup" />
+194-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:36:17-49
+195            <meta-data
+195-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\shada\.gradle\caches\transforms-3\ef40c06bfe1f0f3b8dee3cdb6fce7a3a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+196                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+196-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\shada\.gradle\caches\transforms-3\ef40c06bfe1f0f3b8dee3cdb6fce7a3a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+197                android:value="androidx.startup" />
+197-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\shada\.gradle\caches\transforms-3\ef40c06bfe1f0f3b8dee3cdb6fce7a3a\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+198            <meta-data
+198-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\shada\.gradle\caches\transforms-3\900822ab240c03834b63492fb8f98f4c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+199                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+199-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\shada\.gradle\caches\transforms-3\900822ab240c03834b63492fb8f98f4c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+200                android:value="androidx.startup" />
+200-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\shada\.gradle\caches\transforms-3\900822ab240c03834b63492fb8f98f4c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+201        </provider>
+202
+203        <service
+203-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:39:9-45:35
+204            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+204-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:40:13-88
+205            android:directBootAware="false"
+205-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:41:13-44
+206            android:enabled="@bool/enable_system_alarm_service_default"
+206-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:42:13-72
+207            android:exported="false" />
+207-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:43:13-37
+208        <service
+208-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:46:9-52:35
+209            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+209-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:47:13-84
+210            android:directBootAware="false"
+210-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:48:13-44
+211            android:enabled="@bool/enable_system_job_service_default"
+211-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:49:13-70
+212            android:exported="true"
+212-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:50:13-36
+213            android:permission="android.permission.BIND_JOB_SERVICE" />
+213-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:51:13-69
+214        <service
+214-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:53:9-59:35
+215            android:name="androidx.work.impl.foreground.SystemForegroundService"
+215-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:54:13-81
+216            android:directBootAware="false"
+216-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:55:13-44
+217            android:enabled="@bool/enable_system_foreground_service_default"
+217-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:56:13-77
+218            android:exported="false" />
+218-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:57:13-37
+219
+220        <receiver
+220-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:61:9-66:35
+221            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+221-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:62:13-88
+222            android:directBootAware="false"
+222-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:63:13-44
+223            android:enabled="true"
+223-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:64:13-35
+224            android:exported="false" />
+224-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:65:13-37
+225        <receiver
+225-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:67:9-77:20
+226            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+226-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:68:13-106
+227            android:directBootAware="false"
+227-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:69:13-44
+228            android:enabled="false"
+228-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:70:13-36
+229            android:exported="false" >
+229-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:71:13-37
+230            <intent-filter>
+230-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:73:13-76:29
+231                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+231-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:17-87
+231-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:25-84
+232                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+232-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:17-90
+232-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:25-87
+233            </intent-filter>
+234        </receiver>
+235        <receiver
+235-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:78:9-88:20
+236            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+236-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:79:13-104
+237            android:directBootAware="false"
+237-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:80:13-44
+238            android:enabled="false"
+238-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:81:13-36
+239            android:exported="false" >
+239-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:82:13-37
+240            <intent-filter>
+240-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:84:13-87:29
+241                <action android:name="android.intent.action.BATTERY_OKAY" />
+241-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:17-77
+241-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:25-74
+242                <action android:name="android.intent.action.BATTERY_LOW" />
+242-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:17-76
+242-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:25-73
+243            </intent-filter>
+244        </receiver>
+245        <receiver
+245-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:89:9-99:20
+246            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+246-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:90:13-104
+247            android:directBootAware="false"
+247-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:91:13-44
+248            android:enabled="false"
+248-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:92:13-36
+249            android:exported="false" >
+249-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:93:13-37
+250            <intent-filter>
+250-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:95:13-98:29
+251                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+251-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:17-83
+251-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:25-80
+252                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+252-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:17-82
+252-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:25-79
+253            </intent-filter>
+254        </receiver>
+255        <receiver
+255-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:100:9-109:20
+256            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+256-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:101:13-103
+257            android:directBootAware="false"
+257-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:102:13-44
+258            android:enabled="false"
+258-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:103:13-36
+259            android:exported="false" >
+259-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:104:13-37
+260            <intent-filter>
+260-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:106:13-108:29
+261                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+261-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:17-79
+261-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:25-76
+262            </intent-filter>
+263        </receiver>
+264        <receiver
+264-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:110:9-121:20
+265            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+265-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:111:13-88
+266            android:directBootAware="false"
+266-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:112:13-44
+267            android:enabled="false"
+267-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:113:13-36
+268            android:exported="false" >
+268-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:114:13-37
+269            <intent-filter>
+269-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:116:13-120:29
+270                <action android:name="android.intent.action.BOOT_COMPLETED" />
+270-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:59:17-78
+270-->C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\android\app\src\main\AndroidManifest.xml:59:25-76
+271                <action android:name="android.intent.action.TIME_SET" />
+271-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:17-73
+271-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:25-70
+272                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+272-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:17-81
+272-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:25-78
+273            </intent-filter>
+274        </receiver>
+275        <receiver
+275-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:122:9-131:20
+276            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+276-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:123:13-99
+277            android:directBootAware="false"
+277-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:124:13-44
+278            android:enabled="@bool/enable_system_alarm_service_default"
+278-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:125:13-72
+279            android:exported="false" >
+279-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:126:13-37
+280            <intent-filter>
+280-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:128:13-130:29
+281                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+281-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:17-98
+281-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:25-95
+282            </intent-filter>
+283        </receiver>
+284        <receiver
+284-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:132:9-142:20
+285            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+285-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:133:13-78
+286            android:directBootAware="false"
+286-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:134:13-44
+287            android:enabled="true"
+287-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:135:13-35
+288            android:exported="true"
+288-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:136:13-36
+289            android:permission="android.permission.DUMP" >
+289-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:137:13-57
+290            <intent-filter>
+290-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:139:13-141:29
+291                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+291-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:17-88
+291-->[androidx.work:work-runtime:2.8.1] C:\Users\shada\.gradle\caches\transforms-3\e1f117f016513a9646ff8d836040d272\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:25-85
+292            </intent-filter>
+293        </receiver>
+294
+295        <uses-library
+295-->[androidx.window:window:1.2.0] C:\Users\shada\.gradle\caches\transforms-3\992c4edd9fa2b12ccb774d04b6afd729\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+296            android:name="androidx.window.extensions"
+296-->[androidx.window:window:1.2.0] C:\Users\shada\.gradle\caches\transforms-3\992c4edd9fa2b12ccb774d04b6afd729\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+297            android:required="false" />
+297-->[androidx.window:window:1.2.0] C:\Users\shada\.gradle\caches\transforms-3\992c4edd9fa2b12ccb774d04b6afd729\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+298        <uses-library
+298-->[androidx.window:window:1.2.0] C:\Users\shada\.gradle\caches\transforms-3\992c4edd9fa2b12ccb774d04b6afd729\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+299            android:name="androidx.window.sidecar"
+299-->[androidx.window:window:1.2.0] C:\Users\shada\.gradle\caches\transforms-3\992c4edd9fa2b12ccb774d04b6afd729\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+300            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+300-->[androidx.window:window:1.2.0] C:\Users\shada\.gradle\caches\transforms-3\992c4edd9fa2b12ccb774d04b6afd729\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+301        <uses-library
+301-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\shada\.gradle\caches\transforms-3\f8b7e846aa07990c1868a662502a6c26\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+302            android:name="org.apache.http.legacy"
+302-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\shada\.gradle\caches\transforms-3\f8b7e846aa07990c1868a662502a6c26\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+303            android:required="false" />
+303-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\shada\.gradle\caches\transforms-3\f8b7e846aa07990c1868a662502a6c26\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+304
+305        <receiver
+305-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\shada\.gradle\caches\transforms-3\901aa6e3d78ca4d1fd5b488ab4e81172\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:32:9-39:20
+306            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+306-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\shada\.gradle\caches\transforms-3\901aa6e3d78ca4d1fd5b488ab4e81172\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:33:13-78
+307            android:exported="true"
+307-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\shada\.gradle\caches\transforms-3\901aa6e3d78ca4d1fd5b488ab4e81172\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:34:13-36
+308            android:permission="com.google.android.c2dm.permission.SEND" >
+308-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\shada\.gradle\caches\transforms-3\901aa6e3d78ca4d1fd5b488ab4e81172\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:35:13-73
+309            <intent-filter>
+309-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:30:13-32:29
+310                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+310-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:31:17-81
+310-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:31:25-78
+311            </intent-filter>
+312        </receiver>
+313        <!--
+314             FirebaseMessagingService performs security checks at runtime,
+315             but set to not exported to explicitly avoid allowing another app to call it.
+316        -->
+317        <service
+317-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\shada\.gradle\caches\transforms-3\901aa6e3d78ca4d1fd5b488ab4e81172\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:45:9-52:19
+318            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+318-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\shada\.gradle\caches\transforms-3\901aa6e3d78ca4d1fd5b488ab4e81172\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:46:13-82
+319            android:directBootAware="true"
+319-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\shada\.gradle\caches\transforms-3\901aa6e3d78ca4d1fd5b488ab4e81172\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:47:13-43
+320            android:exported="false" >
+320-->[com.google.firebase:firebase-messaging:23.0.8] C:\Users\shada\.gradle\caches\transforms-3\901aa6e3d78ca4d1fd5b488ab4e81172\transformed\jetified-firebase-messaging-23.0.8\AndroidManifest.xml:48:13-37
+321            <intent-filter android:priority="-500" >
+321-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-23:29
+322                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+322-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:22:17-78
+322-->[:firebase_messaging] C:\Users\shada\OneDrive\Documents\FlutterProjects\parentseye_parent\build\firebase_messaging\intermediates\merged_manifest\release\AndroidManifest.xml:22:25-75
+323            </intent-filter>
+324        </service>
+325
+326        <activity
+326-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\shada\.gradle\caches\transforms-3\66d7d184b5845bc2f72c093928c503ce\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+327            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+327-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\shada\.gradle\caches\transforms-3\66d7d184b5845bc2f72c093928c503ce\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+328            android:exported="false"
+328-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\shada\.gradle\caches\transforms-3\66d7d184b5845bc2f72c093928c503ce\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+329            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+329-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\shada\.gradle\caches\transforms-3\66d7d184b5845bc2f72c093928c503ce\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+330
+331        <provider
+331-->[com.google.firebase:firebase-common:20.1.2] C:\Users\shada\.gradle\caches\transforms-3\45c77d5d058d8bc7c2ce0bce64b3b7e9\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:26:9-31:39
+332            android:name="com.google.firebase.provider.FirebaseInitProvider"
+332-->[com.google.firebase:firebase-common:20.1.2] C:\Users\shada\.gradle\caches\transforms-3\45c77d5d058d8bc7c2ce0bce64b3b7e9\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:27:13-77
+333            android:authorities="com.parentseye.parent_app.firebaseinitprovider"
+333-->[com.google.firebase:firebase-common:20.1.2] C:\Users\shada\.gradle\caches\transforms-3\45c77d5d058d8bc7c2ce0bce64b3b7e9\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:28:13-72
+334            android:directBootAware="true"
+334-->[com.google.firebase:firebase-common:20.1.2] C:\Users\shada\.gradle\caches\transforms-3\45c77d5d058d8bc7c2ce0bce64b3b7e9\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:29:13-43
+335            android:exported="false"
+335-->[com.google.firebase:firebase-common:20.1.2] C:\Users\shada\.gradle\caches\transforms-3\45c77d5d058d8bc7c2ce0bce64b3b7e9\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:30:13-37
+336            android:initOrder="100" />
+336-->[com.google.firebase:firebase-common:20.1.2] C:\Users\shada\.gradle\caches\transforms-3\45c77d5d058d8bc7c2ce0bce64b3b7e9\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:31:13-36
+337
+338        <receiver
+338-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\shada\.gradle\caches\transforms-3\36ba45fc42319576530983f43cc5b016\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:29:9-33:20
+339            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+339-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\shada\.gradle\caches\transforms-3\36ba45fc42319576530983f43cc5b016\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:30:13-85
+340            android:enabled="true"
+340-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\shada\.gradle\caches\transforms-3\36ba45fc42319576530983f43cc5b016\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:31:13-35
+341            android:exported="false" >
+341-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\shada\.gradle\caches\transforms-3\36ba45fc42319576530983f43cc5b016\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:32:13-37
+342        </receiver>
+343
+344        <service
+344-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\shada\.gradle\caches\transforms-3\36ba45fc42319576530983f43cc5b016\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:35:9-38:40
+345            android:name="com.google.android.gms.measurement.AppMeasurementService"
+345-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\shada\.gradle\caches\transforms-3\36ba45fc42319576530983f43cc5b016\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:36:13-84
+346            android:enabled="true"
+346-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\shada\.gradle\caches\transforms-3\36ba45fc42319576530983f43cc5b016\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:37:13-35
+347            android:exported="false" />
+347-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\shada\.gradle\caches\transforms-3\36ba45fc42319576530983f43cc5b016\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:38:13-37
+348        <service
+348-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\shada\.gradle\caches\transforms-3\36ba45fc42319576530983f43cc5b016\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:39:9-43:72
+349            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+349-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\shada\.gradle\caches\transforms-3\36ba45fc42319576530983f43cc5b016\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:40:13-87
+350            android:enabled="true"
+350-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\shada\.gradle\caches\transforms-3\36ba45fc42319576530983f43cc5b016\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:41:13-35
+351            android:exported="false"
+351-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\shada\.gradle\caches\transforms-3\36ba45fc42319576530983f43cc5b016\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:42:13-37
+352            android:permission="android.permission.BIND_JOB_SERVICE" />
+352-->[com.google.android.gms:play-services-measurement:21.1.1] C:\Users\shada\.gradle\caches\transforms-3\36ba45fc42319576530983f43cc5b016\transformed\jetified-play-services-measurement-21.1.1\AndroidManifest.xml:43:13-69
+353
+354        <meta-data
+354-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\shada\.gradle\caches\transforms-3\d33024bfe3d81bb2a680333ea97a3c5b\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+355            android:name="com.google.android.gms.version"
+355-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\shada\.gradle\caches\transforms-3\d33024bfe3d81bb2a680333ea97a3c5b\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+356            android:value="@integer/google_play_services_version" />
+356-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\shada\.gradle\caches\transforms-3\d33024bfe3d81bb2a680333ea97a3c5b\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+357
+358        <service
+358-->[androidx.room:room-runtime:2.5.0] C:\Users\shada\.gradle\caches\transforms-3\e4360f310f10993935eb7436c3316936\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+359            android:name="androidx.room.MultiInstanceInvalidationService"
+359-->[androidx.room:room-runtime:2.5.0] C:\Users\shada\.gradle\caches\transforms-3\e4360f310f10993935eb7436c3316936\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+360            android:directBootAware="true"
+360-->[androidx.room:room-runtime:2.5.0] C:\Users\shada\.gradle\caches\transforms-3\e4360f310f10993935eb7436c3316936\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+361            android:exported="false" />
+361-->[androidx.room:room-runtime:2.5.0] C:\Users\shada\.gradle\caches\transforms-3\e4360f310f10993935eb7436c3316936\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+362
+363        <receiver
+363-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\shada\.gradle\caches\transforms-3\900822ab240c03834b63492fb8f98f4c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+364            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+364-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\shada\.gradle\caches\transforms-3\900822ab240c03834b63492fb8f98f4c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+365            android:directBootAware="false"
+365-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\shada\.gradle\caches\transforms-3\900822ab240c03834b63492fb8f98f4c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+366            android:enabled="true"
+366-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\shada\.gradle\caches\transforms-3\900822ab240c03834b63492fb8f98f4c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+367            android:exported="true"
+367-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\shada\.gradle\caches\transforms-3\900822ab240c03834b63492fb8f98f4c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+368            android:permission="android.permission.DUMP" >
+368-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\shada\.gradle\caches\transforms-3\900822ab240c03834b63492fb8f98f4c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+369            <intent-filter>
+369-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\shada\.gradle\caches\transforms-3\900822ab240c03834b63492fb8f98f4c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+370                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+370-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\shada\.gradle\caches\transforms-3\900822ab240c03834b63492fb8f98f4c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+370-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\shada\.gradle\caches\transforms-3\900822ab240c03834b63492fb8f98f4c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+371            </intent-filter>
+372            <intent-filter>
+372-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\shada\.gradle\caches\transforms-3\900822ab240c03834b63492fb8f98f4c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+373                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+373-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\shada\.gradle\caches\transforms-3\900822ab240c03834b63492fb8f98f4c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+373-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\shada\.gradle\caches\transforms-3\900822ab240c03834b63492fb8f98f4c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+374            </intent-filter>
+375            <intent-filter>
+375-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\shada\.gradle\caches\transforms-3\900822ab240c03834b63492fb8f98f4c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+376                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+376-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\shada\.gradle\caches\transforms-3\900822ab240c03834b63492fb8f98f4c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+376-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\shada\.gradle\caches\transforms-3\900822ab240c03834b63492fb8f98f4c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+377            </intent-filter>
+378            <intent-filter>
+378-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\shada\.gradle\caches\transforms-3\900822ab240c03834b63492fb8f98f4c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+379                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+379-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\shada\.gradle\caches\transforms-3\900822ab240c03834b63492fb8f98f4c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+379-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\shada\.gradle\caches\transforms-3\900822ab240c03834b63492fb8f98f4c\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+380            </intent-filter>
+381        </receiver>
+382
+383        <service
+383-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\shada\.gradle\caches\transforms-3\44fddae719347ce750a5de379ed7ca39\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:29:9-35:19
+384            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+384-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\shada\.gradle\caches\transforms-3\44fddae719347ce750a5de379ed7ca39\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:30:13-103
+385            android:exported="false" >
+385-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\shada\.gradle\caches\transforms-3\44fddae719347ce750a5de379ed7ca39\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:31:13-37
+386            <meta-data
+386-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\shada\.gradle\caches\transforms-3\44fddae719347ce750a5de379ed7ca39\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:32:13-34:39
+387                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+387-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\shada\.gradle\caches\transforms-3\44fddae719347ce750a5de379ed7ca39\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:33:17-94
+388                android:value="cct" />
+388-->[com.google.android.datatransport:transport-backend-cct:3.1.7] C:\Users\shada\.gradle\caches\transforms-3\44fddae719347ce750a5de379ed7ca39\transformed\jetified-transport-backend-cct-3.1.7\AndroidManifest.xml:34:17-36
+389        </service>
+390        <service
+390-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\shada\.gradle\caches\transforms-3\301302936219b478003842a24d666461\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:26:9-30:19
+391            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+391-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\shada\.gradle\caches\transforms-3\301302936219b478003842a24d666461\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:27:13-117
+392            android:exported="false"
+392-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\shada\.gradle\caches\transforms-3\301302936219b478003842a24d666461\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:28:13-37
+393            android:permission="android.permission.BIND_JOB_SERVICE" >
+393-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\shada\.gradle\caches\transforms-3\301302936219b478003842a24d666461\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:29:13-69
+394        </service>
+395
+396        <receiver
+396-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\shada\.gradle\caches\transforms-3\301302936219b478003842a24d666461\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:32:9-34:40
+397            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+397-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\shada\.gradle\caches\transforms-3\301302936219b478003842a24d666461\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:33:13-132
+398            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+398-->[com.google.android.datatransport:transport-runtime:3.1.7] C:\Users\shada\.gradle\caches\transforms-3\301302936219b478003842a24d666461\transformed\jetified-transport-runtime-3.1.7\AndroidManifest.xml:34:13-37
+399        <activity
+399-->[com.google.android.play:core-common:2.0.3] C:\Users\shada\.gradle\caches\transforms-3\2fecd5252e1b733224bb8e09f436962a\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:14:9-18:65
+400            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+400-->[com.google.android.play:core-common:2.0.3] C:\Users\shada\.gradle\caches\transforms-3\2fecd5252e1b733224bb8e09f436962a\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:15:13-93
+401            android:exported="false"
+401-->[com.google.android.play:core-common:2.0.3] C:\Users\shada\.gradle\caches\transforms-3\2fecd5252e1b733224bb8e09f436962a\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:16:13-37
+402            android:stateNotNeeded="true"
+402-->[com.google.android.play:core-common:2.0.3] C:\Users\shada\.gradle\caches\transforms-3\2fecd5252e1b733224bb8e09f436962a\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:17:13-42
+403            android:theme="@style/Theme.PlayCore.Transparent" />
+403-->[com.google.android.play:core-common:2.0.3] C:\Users\shada\.gradle\caches\transforms-3\2fecd5252e1b733224bb8e09f436962a\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:18:13-62
+404    </application>
+405
+406</manifest>
